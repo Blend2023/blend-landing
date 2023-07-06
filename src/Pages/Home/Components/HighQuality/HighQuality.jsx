@@ -26,7 +26,7 @@ const HighQuality = () => {
           <div className="quality_card">
             <div className="row">
               {qContent.map((el, i) => (
-                <div className="col-md-4">
+                <div className="col-md-4 mb-4">
                   <img src={require(`./images/q${i + 1}.png`)} alt="" />
                   <h2> {el.title} </h2>
                   <p>{el.desc}</p>

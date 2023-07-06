@@ -73,10 +73,12 @@ const Footer = () => {
             <div className="fc_box container">
               <p>
                 <span className="cp">© Copyright blend 2020</span>
+                <span>
                 <span className="cp" > <BsFacebook/></span>
                 <span className="cp" > <BsTwitter/></span>
                 <span className="cp" > <BsInstagram/></span>
                 <span className="cp" > <BsLinkedin/></span>
+                </span>
               </p>
             </div>
           </div>

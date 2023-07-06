@@ -6,7 +6,7 @@ import Upscale from './Components/Upscale/Upscale'
 import Revenue from './Components/Revenue/Revenue'
 import DiscoverMore from './Components/DiscoverMore/DiscoverMore'
 import Footer from './Components/Footer/Footer'
-
+import "./home.css"
 const Home = () => {
   return (
     <div className="home_page">

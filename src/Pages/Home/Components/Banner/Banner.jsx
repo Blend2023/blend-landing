@@ -26,13 +26,13 @@ const Banner = () => {
             </div>
           </div>
           <div className="row img_gallery">
-            <div className="col-md-4">
+            <div className="col-md-4 mb-4 text-center">
               <img src={require("./banner1.png")} alt="" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-4 text-center">
               <img src={require("./banner2.png")} alt="" />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-4 text-center">
               <img src={require("./banner3.png")} alt="" />
             </div>
           </div>
