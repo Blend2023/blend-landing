@@ -39,7 +39,9 @@ function Navbar(props) {
                   {item}
                 </Button>
               ))}
+              <a href="/login">
               <button className="btn try_btn"> Try it</button>
+              </a>
             </Box>
           </Toolbar>
         </AppBar>

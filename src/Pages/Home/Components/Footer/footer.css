@@ -1,7 +1,19 @@
-.f_title{
+.f_sectoin{
+    background-image: url(./bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.f_menus {
+    background: #1D2130;
+    padding-top: 60px;
+}
+
+.f_title {
     text-align: center;
 }
+
 .f_title h1 {
+    margin-bottom: 40px;
     color: #1D2130;
     text-align: center;
     font-size: 56px;
@@ -10,6 +22,7 @@
 }
 
 .f_title p {
+    margin-bottom: 40px;
     color: #1D2130;
     text-align: center;
     font-size: 16px;
@@ -17,10 +30,87 @@
     font-weight: 400;
 }
 
-.f_title button {    
+.f_title button {
+    margin-bottom: 40px;
     background: black;
     color: white;
     font-weight: 500;
     padding: 18px 30px;
     border-radius: 15px;
+}
+
+.fm_title h3 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.f_menu_wrap ul,
+.f_menu_wrap ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.f_menu_wrap ul li {
+    cursor: pointer;
+    color: #777777;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.sub h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+
+.sub input {
+    height: 55px;
+    background-color: #2B2E3C;
+}
+
+.sub button {
+    padding: 11px 27px;
+    right: 3px;
+    background-color: white;
+    color: #2B2E3C;
+}
+
+.f_social {
+    color: #808080;
+}
+
+.fc_box {
+    padding: 60px 0;
+    position: relative;
+}
+
+.fc_box::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #808080;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.f_social p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #1d2130;
+    padding: 0 33px;
+    z-index: 9;
 }
