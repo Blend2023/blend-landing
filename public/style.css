@@ -1,0 +1,26 @@
+.blend_nav .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    background-color: white !important;
+}
+
+.blend_nav .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+    color: #1D2130 !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+}
+.blend_nav .css-hyum1k-MuiToolbar-root{
+    margin-top: 25px !important;
+    padding: 0 100px !important;
+}
+.blend_nav .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+    box-shadow: none !important;
+}
+.try_btn{
+    background: #1D2130;
+    color: white;
+    border-radius: 12px;
+    padding: 8px 34px;
+    font-size: 21px;
+    margin-left: 26px;
+}
