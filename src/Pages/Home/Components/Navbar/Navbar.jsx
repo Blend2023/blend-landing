@@ -16,7 +16,7 @@ function Navbar(props) {
     <div className="blend_nav">
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
-        <AppBar component="nav">
+        <AppBar component="nav" className="bg-light">
           <Toolbar>
             <IconButton
               color="inherit"
