@@ -1,0 +1,30 @@
+.ups_content .left h1 {
+    color: #1D2130;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ups_content p {
+    color: #1D2130;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ups_content .left,
+.ups_content .left h2,
+.ups_content .left h1,
+.ups_content .left p {
+    margin-bottom: 40px;
+}
+
+.ups_content .right h5{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #1D2130;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 25px;
+}

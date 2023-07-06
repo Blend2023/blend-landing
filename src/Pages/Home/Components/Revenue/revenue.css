@@ -1,0 +1,32 @@
+.revenue_section{
+    background-image: url(./rbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0 ;
+}
+.r_left h1,
+.r_left p,
+.r_left button {
+    margin-bottom: 50px;
+}
+
+.r_left h1 {
+    color: '#1D2130';
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.r_left p {
+    color: #1D2130;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.r_left button { 
+    background: black;
+    color: white;
+    font-weight: 500;
+    padding: 18px 30px;
+    border-radius: 15px;
+}

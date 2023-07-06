@@ -35,3 +35,21 @@ h3 {
 .w_100 {
   width: 100%;
 }
+.gr_txt {
+  background: #3847FF;
+  background: linear-gradient(to right, #3847FF 0%, #3ac8f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.mb_100{
+  margin-bottom: 100px;
+}
+.asc{
+  align-items: center;
+}
+.mt_100{
+  margin-top: 100px;
+}

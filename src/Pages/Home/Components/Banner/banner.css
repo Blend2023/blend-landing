@@ -1,0 +1,62 @@
+.banner_section{
+    background-image: url(./bbg.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.banner_sectoin_wrap {
+    padding: 200px 0;
+}
+
+.banner_sectoin_container h1,
+.banner_sectoin_container p {
+    text-align: center;
+    color: #1D2130;
+    margin-bottom: 50px;
+}
+
+
+.banner_sectoin_container p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner_sectoin_container h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.banner_sectoin_container h1 span {
+    color: #00DA8F
+}
+
+.b_search {
+    position: relative;
+}
+
+.b_search input {
+    border: 0;
+    background-color: white;
+    height: 70px;
+    font-size: 18px;
+    border-radius: 18px;
+    padding: 0px 25px;
+    padding-right: 180px;
+}
+
+.b_search button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    background: black;
+    color: white;
+    right: 4px;
+    font-weight: 500;
+    padding: 18px 30px;
+    border-radius: 15px;
+}
+.img_gallery{
+    margin-top: 120px;
+}
