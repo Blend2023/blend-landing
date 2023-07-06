@@ -24,3 +24,6 @@
     font-size: 21px;
     margin-left: 26px;
 }
+.bs_none{
+    box-shadow: none !important;
+}
